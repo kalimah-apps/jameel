@@ -1,9 +1,6 @@
 import fse from 'fs-extra';
 import mainTheme from './generate/main.js';
 
-/**
- *
- */
 const readBase = async () => {
 	try {
 		const base = await fse.readJson('./generate/base.json');
