@@ -1,0 +1,39 @@
+{
+  "name": "jameel",
+  "displayName": "Jameel Dark Theme",
+  "description": "Dark theme for VS Code",
+  "version": "0.0.0",
+  "type": "module",
+  "publisher": "KalimahApps",
+  "engines": {
+    "vscode": "^1.68.0"
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "package": "vsce package"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "themes/*.json"
+    ]
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Jameel",
+        "uiTheme": "vs-dark",
+        "path": "./themes/jameel-color-theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@kalimahapps/eslint-config": "^1.0.5",
+    "chroma-js": "^2.4.2",
+    "eslint": "^8.32.0",
+    "fs-extra": "^11.1.0"
+  },
+  "license": "MIT"
+}
