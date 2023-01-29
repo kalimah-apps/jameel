@@ -2,9 +2,14 @@
   "name": "jameel",
   "displayName": "Jameel Dark Theme",
   "description": "Dark theme for VS Code",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "publisher": "KalimahApps",
+ "icon": "icon.png",
+ "repository": {
+    "type": "git",
+    "url": "https://github.com/kalimah-apps/jameel"
+  },
   "engines": {
     "vscode": "^1.68.0"
   },
@@ -20,6 +25,17 @@
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "theme",
+    "dark",
+    "jameel",
+    "Dark Theme",
+    "colorful",
+    "crisp"
+  ],
+  "bugs": {
+    "url": "https://github.com/kalimah-apps/jameel/issues"
+  },
   "contributes": {
     "themes": [
       {
