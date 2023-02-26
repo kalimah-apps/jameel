@@ -1,4 +1,4 @@
-import { getColorLevel, variableColor, typeColor, keywordColor } from './util.js';
+import { getColorLevel } from './util.js';
 const theme = [
 	{
 		name: 'Variable',
@@ -26,10 +26,10 @@ const theme = [
 		},
 	},
 	{
-		name: 'Storage',
-		scope: ['storage.modifier.async'],
+		name: 'Storage modifier',
+		scope: ['storage.modifier'],
 		settings: {
-			foreground: getColorLevel('violet', 2),
+			foreground: getColorLevel('violet', 1),
 		},
 	},
 	{
@@ -148,6 +148,20 @@ const theme = [
 	{
 		name: 'Types',
 		scope: ['entity.name.type'],
+		settings: {
+			foreground: getColorLevel('yellow', 2),
+		},
+	},
+	{
+		name: 'Class',
+		scope: ['entity.name.type.class'],
+		settings: {
+			foreground: getColorLevel('yellow'),
+		},
+	},
+	{
+		name: 'Inherited class',
+		scope: ['entity.other.inherited-class'],
 		settings: {
 			foreground: getColorLevel('yellow', 2),
 		},
