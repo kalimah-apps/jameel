@@ -2,8 +2,12 @@
   "name": "jameel",
   "displayName": "Jameel Dark Theme",
   "description": "Dark theme for VSCode",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "type": "module",
+  "galleryBanner": {
+    "color": "#1e2429",
+    "theme": "dark"
+  },
   "publisher": "KalimahApps",
  "icon": "icon.png",
  "repository": {
